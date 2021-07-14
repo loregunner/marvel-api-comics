@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+$marvel: 'Bangers';
+
+.headerFree {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    margin-right: 4rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: $marvel;
+  }
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  img {
+    width: 70rem;
+  }
+}
+
+.cardInferior{
+    background-color: black;
+    height: 55rem;
+    margin-top: 2rem;
+    .img{
+        width: 25rem;
+        margin-left: 27rem;
+    }
+    .elige{
+        color: white;
+        font-family: $marvel;
+        font-size: 6vh;
+        margin-left: 30rem;
+    }
+    .button{
+      background-color: red;
+      color: black;
+      font-family: $marvel;
+      border: none;
+      width: 10rem;
+      margin-left: 34.5rem;
+      margin-top: 2rem;
+    }
+  .comics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img{
+      height: 30rem;
+      margin-top: 3.4rem;
+      margin-left: -1rem;
+      width: 100%;
+    }
+  }
+
+}
+.footer{
+  margin-top: 2rem;
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  p{
+    font-family: $marvel;
+    color: white;
+    font-size: 5vh;
+    padding-top: 3rem;
+    padding-left: 4rem;
+  }
+  .img{
+    margin-left: 9rem;
+  }
+  .social{
+    margin-top: 4rem;
+    margin-left: 12rem;
+    .img{
+      width: 20rem;
+    }
+  }
+}
+
+
+
+    .form-row{
+        display: block;
+        margin: 2rem 0rem;
+        input{
+          font-family: $marvel;
+            border: none;
+            width: 20rem;
+            margin-left: 1rem;
+            border-bottom: 1px solid black;
+        }
+        .error{
+            position: relative;
+            font-family: $marvel;
+            padding: 0.1rem 1rem;
+            background-color: rgba(255, 0, 0, 0.671);
+            color: white;
+            white-space: pre-wrap;
+            top: 1rem;
+            border: red 1px solid;
+        }
+    }
+    .buttonSubmit{
+        width: 7rem;
+        height: 1.7rem;
+        margin-left: 15rem;
+        font-family: $marvel;
+      color: black;
+      background-color: red;
+      border: none;
+  }
+.cargando{
+  font-family: $marvel;
+  font-size: 6vh;
+  margin-left: 35rem;
+}
+.ingresaFavoritos{
+  font-family: $marvel;
+  font-size: 8vh;
+  margin-left: 26rem;
+}
+@media (max-width: 750px) {
+    .headerFree {
+      a {
+        font-size: 1rem;
+        margin-left: -8rem;
+      }
+      .img {
+        width: 7rem;
+      }
+    }
+    .body {
+        img {
+          width: 20rem;
+        }
+      }
+      .cardInferior{
+        height: 20rem;
+        .img{
+          width: 15rem;
+          margin-left: 5rem;
+      }
+      .elige{
+        font-size: 3vh;
+        margin-left: 7rem;
+    }
+    .button{
+      width: 10rem;
+      margin-left: 8rem;
+      margin-top: 2rem;
+    }
+    .comics{
+      .img{
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -1rem;
+        width: 110%;
+      }
+     }
+      }
+      .footer{
+        display: block;
+        margin-top: 9.7rem;
+        height: 15rem;
+        p{
+          font-size: 2vh;
+          padding-top: 3rem;
+          padding-left: 9rem;
+        }
+        .img{
+          width: 11rem;
+          margin-left: 8rem;
+        }
+        .social{
+          margin-top: 1rem;
+          margin-left: 11rem;
+          .img{
+            width: 20rem;
+          }
+         }
+      }
+      .form-row{
+        input{
+            width: 10rem;
+            margin-left: 1rem;
+        }
+        .error{
+            white-space: pre;
+            padding: 0.1rem 4rem;
+        }
+    }
+    .buttonSubmit{
+      margin-left: 10rem;
+}
+  }
+.data{
+  margin: 1rem;
+  display: flex;
+  width: 97%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.buttonsElegir{
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+  .button{
+    margin-left: 3rem;
+    font-size: 5vh;
+    font-family: $marvel;
+    color: black;
+  }
+}
+  @media (min-width: 750px) and (max-width: 900px) {
+    .headerFree {
+      a {
+        font-size: 1rem;
+        margin-left: -8rem;
+      }
+      .img {
+        width: 7rem;
+      }
+    }
+    .body {
+        img {
+          width: 20rem;
+        }
+      }
+      .cardInferior{
+        height: 20rem;
+        .img{
+          width: 15rem;
+          margin-left: 17rem;
+      }
+      .elige{
+        font-size: 3vh;
+        margin-left: 17rem;
+    }
+    .button{
+      width: 10rem;
+      margin-left: 20rem;
+      margin-top: 2rem;
+    }
+    .comics{
+      .img{
+        height: 14rem;
+        margin-top: 4rem;
+        margin-left: -1rem;
+        width: 110%;
+      }
+     }
+      }
+      .footer{
+        display: block;
+        margin-top: 9.7rem;
+        height: 18rem;
+        p{
+          font-size: 2vh;
+          padding-top: 5rem;
+          padding-left: 19rem;
+        }
+        .img{
+          width: 11rem;
+          margin-left: 20rem;
+        }
+        .social{
+          margin-top: 1rem;
+          margin-left: 23rem;
+          .img{
+            width: 20rem;
+          }
+         }
+      }
+  }
+  @media  (max-width: 500px) {
+      .headerFree {
+          a {
+            font-size: 1rem;
+            margin-left: 6rem;
+          }
+          .img {
+            width: 7rem;
+          }
+        }
+  }

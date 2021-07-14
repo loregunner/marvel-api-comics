@@ -127,6 +127,25 @@ $marvel: 'Bangers';
   font-size: 8vh;
   margin-left: 26rem;
 }
+.data{
+  margin: 1rem;
+  display: flex;
+  width: 97%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.buttonsElegir{
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+  .button{
+    margin-left: 3rem;
+    font-size: 5vh;
+    font-family: $marvel;
+    color: black;
+  }
+}
 @media (max-width: 750px) {
     .headerFree {
       a {
@@ -150,11 +169,11 @@ $marvel: 'Bangers';
       }
       .elige{
         font-size: 3vh;
-        margin-left: 7rem;
+        margin-left: 7.5rem;
     }
     .button{
       width: 10rem;
-      margin-left: 8rem;
+      margin-left: 7.7rem;
       margin-top: 2rem;
     }
     .comics{
@@ -200,26 +219,20 @@ $marvel: 'Bangers';
     .buttonSubmit{
       margin-left: 10rem;
 }
-  }
-.data{
-  margin: 1rem;
-  display: flex;
-  width: 97%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
+.cargando{
+  margin-left: 5rem;
+}
+.ingresaFavoritos{
+  font-size: 5vh;
+  margin-left: 2rem;
 }
 .buttonsElegir{
   display: flex;
-  justify-content: space-around;
-  margin: 3rem;
-  .button{
-    margin-left: 3rem;
-    font-size: 5vh;
-    font-family: $marvel;
-    color: black;
+  justify-content: center;
+  margin: 1rem;
+  margin-left: -1rem;
   }
-}
+ }
   @media (min-width: 750px) and (max-width: 900px) {
     .headerFree {
       a {
